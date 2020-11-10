@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "SciFiShooter (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooter Linux Debug Build",
+			"program": "/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Binaries/Linux/SciFiShooter-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "SciFiShooter (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooter Linux DebugGame Build",
+			"program": "/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Binaries/Linux/SciFiShooter-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "SciFiShooter (Development)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooter Linux Development Build",
+			"program": "/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Binaries/Linux/SciFiShooter",
+			"args": [
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "SciFiShooter (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooter Linux Shipping Build",
+			"program": "/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Binaries/Linux/SciFiShooter-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "SciFiShooter (Test)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooter Linux Test Build",
+			"program": "/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Binaries/Linux/SciFiShooter-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "SciFiShooterEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooterEditor Linux Debug Build",
+			"program": "/home/confederatecowboy/UnrealEngine/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject"
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "SciFiShooterEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooterEditor Linux DebugGame Build",
+			"program": "/home/confederatecowboy/UnrealEngine/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject"
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "SciFiShooterEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "SciFiShooterEditor Linux Development Build",
+			"program": "/home/confederatecowboy/UnrealEngine/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject"
+			],
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/confederatecowboy/UnrealEngine/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+		}
+	]
+}

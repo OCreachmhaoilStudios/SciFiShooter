@@ -1,0 +1,1985 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SciFiShooter Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Mac",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"IOS",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"Linux",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"LinuxAArch64",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"TVOS",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter XXX Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter XXX DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter XXX Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter XXX Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Shipping",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooter XXX Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooter XXX Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooter",
+				"XXX",
+				"Test",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooterEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooterEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooterEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Linux",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooterEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"Debug",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooterEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"DebugGame",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SciFiShooterEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		},
+		{
+			"label": "SciFiShooterEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"SciFiShooterEditor",
+				"Mac",
+				"Development",
+				"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/SciFiShooter.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/confederatecowboy/UnrealEngine/UnrealEngine"
+			}
+		}
+	]
+}

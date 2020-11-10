@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{00041D9B-08D8-617F-6403-AC66FF76881F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SciFiShooter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/.git": true,
+		"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/.kdev4": true,
+		"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/.vscode": true,
+		"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Content": true,
+		"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/DerivedDataCache": true,
+		"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Intermediate": true,
+		"/stor/O-Creachmhaoil-Studio/UE-Games/SciFiShooter/SciFiShooter/Saved": true
+	}
+}
